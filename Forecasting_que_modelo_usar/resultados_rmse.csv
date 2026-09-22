@@ -1,0 +1,11 @@
+serie,modelo,RMSE,puntos,vs_naive_%,ranking
+S&P 500 diario,Naive (referencia),173.32,126,0.0,2
+S&P 500 diario,Promedio movil,284.4,126,64.09,5
+S&P 500 diario,ARIMA,173.07,126,-0.14,1
+S&P 500 diario,Prophet,270.29,126,55.95,4
+S&P 500 diario,XGBoost,178.89,126,3.22,3
+Ventas minoristas EE. UU. mensual,Seasonal naive (referencia),24610.42,36,0.0,3
+Ventas minoristas EE. UU. mensual,Promedio movil,43749.14,36,77.77,5
+Ventas minoristas EE. UU. mensual,ARIMA,13861.37,36,-43.68,2
+Ventas minoristas EE. UU. mensual,Prophet,30088.05,36,22.26,4
+Ventas minoristas EE. UU. mensual,XGBoost,12672.22,36,-48.51,1
